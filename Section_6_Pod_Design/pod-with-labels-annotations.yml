@@ -5,6 +5,8 @@ metadata:
   labels:
     app: App1
     function: Front-end
+  annotations:
+      buildversion: 1.34
 spec:
   containers:
   - name: simple-webapp-color
