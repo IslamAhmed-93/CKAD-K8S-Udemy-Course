@@ -6,7 +6,6 @@ spec:
   containers:
   - name: data-processor
     image: data-processor
-
   affinity:
     nodeAffinity:
       requiredDuringSchedulingIgnoredDuringExecution:
