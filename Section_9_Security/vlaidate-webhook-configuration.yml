@@ -6,8 +6,8 @@ webhooks:
 - name: "pod-policy.example.com"
   clientConfig:
     service:
-      namespace: "example-namespace"
-      name: "example-service"
+      namespace: "webhook-namespace"
+      name: "webhook-service"
     caBundle: <CA_BUNDLE>
   rules:
   - apiGroups:   [""]
